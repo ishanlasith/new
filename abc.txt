@@ -1,25 +1,3 @@
-Suggested Profile detail
-volatility.exe -f dumpname.raw imageinfo
-
-list all the process
-volatility.exe -f dumpname.raw --profile=<profilename> pslist
-
-list the history of Internet Explorer
-volatility.exe -f dumpname.raw --profile=<profilename> iehistory
-
-list the DLLs
-volatility.exe -f dumpname.raw --profile=<profilename> dlllist
-
-process listing in tree form
-volatility.exe -f dumpname.raw --profile=<profilename> pstree
-
-hidden processes
-volatility.exe -f dumpname.raw --profile=<profilename> psscan
-
-TCP/UDP connections 
-volatility.exe -f dumpname.raw --profile=<profilename> sockets
-
-
 autopsy
 
 1. Image hash.
