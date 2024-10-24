@@ -34,3 +34,80 @@ Hint: Program Files -> Recycler
 
 12. Export Dc3.docx file from Recycler to Host computer and analyse the content.
 Hint: Data Source -> Select Image -> Vol 2 -> Recycler
+
+13. Time Zone
+Hint: Windows → System32→ Config → System -> ControlSet001 →  Control TimeZoneInformation →  StandardName
+
+14. Information about Operating System
+Hint: Windows →  System32→  Config  Software →  Microsoft →  Windows NT →CurrentVersion
+
+15. Find Computer Name
+Hint: Windows  System32→   Config  System →   ControlSet001 →   Control → ComputerName →  ComputerName
+
+16. Last recorded computer shutdown time
+Hint: Windows →   System32 →  Config →  Software → Microsoft → Windows NT →
+CurrentVersion → Prefetcher→ ExitTime
+
+17. Last user logon to the computer
+Hint: Windows → System32→ Config → Software → Microsoft → Windows NT →
+CurrentVersion → Winlogon→Default user Name
+
+18. Network cards used by this computer
+Hint: Windows → System32→ Config → Software → Microsoft → Windows NT
+→ CurrentVersion → NetworkCards
+
+19. IP Address and details of the computer
+Hint: Windows → System32→ Config → System → ControlSet001 → Services
+→ Tcpip → Parameters → Interfaces
+
+20. List all the users of the computer
+Hint: Windows → System32→ Config → SAM → Domains → Account → Users→ Names
+
+21. Email clients used by the user
+Hint: Windows → System32→ Config → Software → Clients → Mail
+
+22.Mounted devices
+Hint: Windows → System32→ Config → System → MountedDevices
+
+List all the users and their login names
+Hint: OS Accounts
+ 
+3. Identify the main user/s who often used the system frequently
+Hint: Login count of each user
+
+4. List down recently accessed documents and their date and time 
+Hint: Data Artifacts  Recent Documents
+
+5. List all the places’ files found
+Hint: Deleted Files, Recent Documents, Run Programs, Shell 
+Bags, Web Downloads, EXIF Metadata, Extension Mismatch 
+Detected, User Content Suspected, Web Categories.
+
+6. Find deleted files from the given image
+Hint: File Views  Deleted Files
+
+7. Observe different file extension types of the deleted files
+Hint: File Views  Deleted Files File System
+(E.g. .xml, .js, .dat, .txt, .dll, .log, .jpg, .exe, etc.)
+
+Extract a few suspected files to the Desktop & investigate their
+content
+Hint: Right-click & Extract Files
+
+9. Find the device type & its model used to create the file named 
+“48fceb6d-0008d-0637f-400cb8e1[1].jpg” which is identified 
+as a deleted file.
+Hint: Analysis Results  EXIF Metadata
+(NIKON D300)
+ 
+10. Identify the accessed date and time of the last deleted file
+Hint: File Views  Deleted Files File System
+
+image forensis(CMD)
+
+Copy /b <<Path of the Text File.extension>>+<<Path of the Image file.extension>> 
+<<Path of the destination File.extension>>
+EX:-Copy /b D:\text.txt+D:\iphone.jpg D:merged.jpeg
+
+
+
